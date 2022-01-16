@@ -6,7 +6,7 @@ This repository is for mini tower case's OLED 0.96 screen
 ```bash
 i2cdetect -y 1 
 ```
-if encount `command not found` error, please install `i2c-tool` by using `sudo apt update && sudo apt -y install i2c-tool`.
+if encount `command not found` error, please install `i2c-tool` by using `sudo apt update && sudo apt -y install i2c-tools`.
 3. Install dependencies libraries:
 ```bash
 sudo apt -y install python3 python3-pip python3-pil libjpeg-dev zlib1g-dev libfreetype6-dev liblcms2-dev libopenjp2-7 libtiff5
