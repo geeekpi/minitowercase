@@ -27,7 +27,7 @@ sudo -H pip3 install -e .
 ```
 7. Entering into example folder and test it.
 ```bash
-cd luma.examples/examples/
+cd examples/
 python3 sys_info.py
 ```
 8. You should seen this screen on OLED:
